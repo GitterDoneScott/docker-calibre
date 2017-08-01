@@ -1,3 +1,4 @@
+#!/bin/sh
 while true
 do
         inotifywait -e create -e modify  /opt/calibre/library/metadata.db
